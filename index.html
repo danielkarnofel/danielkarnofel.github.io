@@ -1,1 +1,76 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Karnofel</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <script src="scripts/background.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+                <h1>Daniel Karnofel</h1>
+            </a>
+            <nav class="nav-links">
+                <a href="resume.html">Resume</a>
+                <a href="projects.html">Projects</a>
+            </nav>
+        </div>
+    </header>
+    <!------------------------------------------------------------------------------------>
+    <main>
+
+        <section class="about-me">
+            <p>Hi, I'm Daniel. Thanks for visiting my personal website! 😎</p>
+            <p>I am a student at California State University, Monterey Bay, earning my second bachelor's degree in
+                computer science. I also have a bachelor's degree in philosophy from University of California, Santa
+                Barbara. My primary interests are graphics programming, simulation, and procedural generation. I also
+                enjoy generative art and graphic design.</p>
+            <p>This website serves as a repository for my personal projects and a digital resume. Please feel free to
+                reach out with any questions, requests, or opportunities!</p>
+        </section>
+
+        <section class="contact-links">
+            <span class="contact-link">
+                <a id="email-link" href="mailto:karnofeldaniel@gmail.com">karnofeldaniel@gmail.com</a>
+                <button class="copy-btn" id="copy-email"><span
+                        class="material-symbols-outlined">content_copy</span></button>
+            </span>
+            <span class="contact-link">
+                <a id="github-link" href="https://github.com/danielkarnofel/" target="_blank"
+                    rel="noopener noreferrer">github.com/danielkarnofel</a>
+                <button class="copy-btn" id="copy-github"><span
+                        class="material-symbols-outlined">content_copy</span></button>
+            </span>
+            <span class="contact-link">
+                <a id="linkedin-link" href="https://www.linkedin.com/in/danielkarnofel/" target="_blank"
+                    rel="noopener noreferrer">linkedin.com/in/danielkarnofel</a>
+                <button class="copy-btn" id="copy-linkedin"><span
+                        class="material-symbols-outlined">content_copy</span></button>
+            </span>
+        </section>
+
+    </main>
+    <!------------------------------------------------------------------------------------>
+    <footer>
+        <div class="footer-container">
+            <a href="index.html">Daniel Karnofel</a>
+            <nav class="nav-links">
+                <a href="resume.html">Resume</a>
+                <a href="projects.html">Projects</a>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- This is used as a background -->
+    <canvas id="canvas"></canvas>
+</body>
+
+</html>

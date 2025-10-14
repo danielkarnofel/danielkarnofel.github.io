@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+}
+
+header, footer {
+    color: #EEE;
+    padding: 1rem 2rem;
+}
+
+main {
+    flex: 1;
+    color: #EEE;
+    padding: 1rem 2rem;
+}
+
+a {
+    color: var(--accent-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+}

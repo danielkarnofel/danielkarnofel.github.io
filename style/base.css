@@ -1,0 +1,46 @@
+:root {
+    font-family: monospace;
+    font-size: 16px;
+
+    --primary-color: #111;
+    --text-color: #EEE;
+    --accent-color: #4F4;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #111;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+input, button, textarea, select {
+    font: inherit;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
