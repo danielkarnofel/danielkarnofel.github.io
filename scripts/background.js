@@ -9,9 +9,25 @@ let startTime = performance.now();
 
 const GRID_SIZE = 70;
 
+function updatePointerPosition(x, y) {
+    mouseX = x - canvas.width / 2;
+    mouseY = canvas.height / 2 - y;
+}
+
+// Desktop mouse
 window.addEventListener('mousemove', (e) => {
-    mouseX = e.clientX - canvas.width / 2;
-    mouseY = canvas.height / 2 - e.clientY;
+    updatePointerPosition(e.clientX, e.clientY);
+});
+
+// Mobile touch
+window.addEventListener('touchmove', (e) => {
+    const touch = e.touches[0];
+    if (touch) updatePointerPosition(touch.clientX, touch.clientY);
+});
+
+window.addEventListener('touchstart', (e) => {
+    const touch = e.touches[0];
+    if (touch) updatePointerPosition(touch.clientX, touch.clientY);
 });
 
 window.addEventListener('resize', () => {
