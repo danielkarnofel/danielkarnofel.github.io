@@ -16,14 +16,12 @@
 html {
     background-color: #111;
     overscroll-behavior: none;
-    overflow: hidden; 
 }
 
 body {
     min-height: 100vh;
     line-height: 1.5;
     overscroll-behavior: none;
-    overflow: hidden; 
 }
 
 p, h1, h2, h3, h4, h5, h6 {
