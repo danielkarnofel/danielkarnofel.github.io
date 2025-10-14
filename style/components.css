@@ -30,6 +30,7 @@
     border: 2px solid var(--text-color);
     border-radius: 8px;
     width: fit-content;
+    overflow: hidden;
 }
 
 .contact-link:hover {
