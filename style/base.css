@@ -13,15 +13,12 @@
     padding: 0;
 }
 
-html {
-    background-color: #111;
-    overscroll-behavior: none;
-}
-
-body {
+html, body {
     min-height: 100vh;
     line-height: 1.5;
     overscroll-behavior: none;
+    background-color: var(--primary-color);
+    color: var(--text-color);
 }
 
 p, h1, h2, h3, h4, h5, h6 {
