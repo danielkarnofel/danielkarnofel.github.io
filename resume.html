@@ -9,11 +9,14 @@
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <script src="scripts/background.js" defer></script>
+    <script src="scripts/copyButtons.js" defer></script>
 </head>
 
 <body>
     <header>
-        <a href="index.html"><h1>Daniel Karnofel</h1></a>
+        <a href="index.html">
+            <h1>Daniel Karnofel</h1>
+        </a>
         <nav>
             <div class="nav-links">
                 <a href="index.html">Home</a>
@@ -32,28 +35,146 @@
     <!------------------------------------------------------------------------------------>
     <main>
         <section class="text-section">
-            <p>Hi, I'm currently updating this section. Check back soon!</p>
-
-            <!-- <section class="contact-links">
-                <span class="contact-link">
-                    <a id="email-link" href="mailto:karnofeldaniel@gmail.com">karnofeldaniel@gmail.com</a>
-                    <button class="copy-btn" id="copy-email"><span
-                            class="material-symbols-outlined">content_copy</span></button>
-                </span>
-                <span class="contact-link">
-                    <a id="github-link" href="https://github.com/danielkarnofel/" target="_blank"
-                        rel="noopener noreferrer">github.com/danielkarnofel</a>
-                    <button class="copy-btn" id="copy-github"><span
-                            class="material-symbols-outlined">content_copy</span></button>
-                </span>
-                <span class="contact-link">
-                    <a id="linkedin-link" href="https://www.linkedin.com/in/danielkarnofel/" target="_blank"
-                        rel="noopener noreferrer">linkedin.com/in/danielkarnofel</a>
-                    <button class="copy-btn" id="copy-linkedin"><span
-                            class="material-symbols-outlined">content_copy</span></button>
-                </span>
-            </section> -->
+            <p>Hi, welcome to my digital resume!</p>
+            <p>If you're looking for a general-purpose, print-friendly resume, you can download a PDF by clicking <a
+                    href="assets/Daniel_Karnofel_Resume.pdf" target="_blank" rel="noopener noreferrer">here</a>. If
+                you're looking for a personalized resume tailored to a specific opportunity, don't hesitate to contact
+                me!</p>
         </section>
+
+        <section class="contact-links">
+            <span class="contact-link">
+                <button class="copy-btn" id="copy-email"><span
+                        class="material-symbols-outlined">content_copy</span></button>
+                <a id="email-link" href="mailto:karnofeldaniel@gmail.com">karnofeldaniel@gmail.com</a>
+            </span>
+            <span class="contact-link">
+                <button class="copy-btn" id="copy-github"><span
+                        class="material-symbols-outlined">content_copy</span></button>
+                <a id="github-link" href="https://github.com/danielkarnofel/" target="_blank"
+                    rel="noopener noreferrer">github.com/danielkarnofel</a>
+            </span>
+            <span class="contact-link">
+                <button class="copy-btn" id="copy-linkedin"><span
+                        class="material-symbols-outlined">content_copy</span></button>
+                <a id="linkedin-link" href="https://www.linkedin.com/in/danielkarnofel/" target="_blank"
+                    rel="noopener noreferrer">linkedin.com/in/danielkarnofel</a>
+            </span>
+        </section>
+
+        <div class="resume-container">
+
+            <section class="resume-section">
+                <h2>Education</h2>
+
+                <div class="resume-item">
+                    <h3>California State University, Monterey Bay</h3>
+                    <p><span class="date-range">08/2024 - 08/2026 (In Progress)</span> | <span class="gpa">GPA:
+                            4.00</span></p>
+                    <div class="resume-sub-item">
+                        <h4 class="sub-title">Post-Baccalaureate Student, B.S. in Computer Science</h4>
+                        <ul class="description">
+                            <li>
+                                Completing a second bachelor's degree in Computer Science through CSUMB's
+                                post-baccalaureate
+                                program.</li>
+                            <li>
+                                <strong>Relevant Coursework:</strong> Software Design, Database Management, Operating
+                                Systems, Computer Networking, Graphics Programming, Internet Programming, Design and
+                                Analysis of Algorithms, Data
+                                Science, Software Engineering
+                            </li>
+                    </div>
+                </div>
+
+                <div class="resume-item">
+                    <h3>City College of San Francisco</h3>
+                    <p><span class="date-range">09/2023 - 06/2024</span> | <span class="gpa">GPA: 4.00</span></p>
+                    <div class="resume-sub-item">
+                        <h4 class="sub-title">Post-Baccalaureate Coursework in Computer Science</h4>
+                        <ul class="description">
+                            <li>
+                                Completed prerequisite courses for admission to CSUMB.
+                            </li>
+                            <li>
+                                <strong>Relevant Coursework:</strong> Programming Fundamentals, Discrete Mathematics,
+                                Data
+                                Structures & Algorithms, Computer Architecture
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="resume-item">
+                    <h3>University of California, Santa Barbara</h3>
+                    <p><span class="date-range">09/2017 - 06/2021</span> | <span class="gpa">GPA: 3.63</span></p>
+                    <div class="resume-sub-item">
+                        <h4 class="sub-title">B.A. in Philosophy</h4>
+                        <p class="description"><strong>Relevant Coursework:</strong> Symbolic Logic, Theory of Knowledge, Philosophy of
+                            Language, Philosophy of Mind, Advanced Topics in Philosophy of Mind, Action Theory</p>
+                    </div>
+                    <div class="resume-sub-item">
+                        <h4 class="sub-title">Minor in Art and Technology</h4>
+                        <p class="description"><strong>Relevant Coursework:</strong> Computer Programming in the Arts, Mobile Media,
+                            Physical Computing, Art and Machine Learning, Experimental Video & Animation</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="resume-section">
+                <h2>Experience</h2>
+
+                <div class="resume-item">
+                    <h3>California State University, Monterey Bay</h3>
+                    <p class="date-range">10/2025 - Present</p>
+                    <div class="resume-sub-item">
+                        <p class="sub-title">Teaching Assistant - Internet Programming</p>
+                        <ul class="description">
+                            <li>Assisting in instruction of JavaScript, HTML/CSS, and server-side frameworks.</li>
+                            <li>Providing code reviews, grading, and helping students with full-stack project
+                                development.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="resume-item">
+                    <h3>UCSF Medical Center</h3>
+                    <p class="date-range">09/2023 - Present</p>
+                    <div class="resume-sub-item">
+                        <p class="sub-title">Practice Coordinator</p>
+                        <ul class="description">
+                            <li>Designed internal documentation and data visualization workflows totaling 100+ pages of
+                                reference material.</li>
+                            <li>Improved operational efficiency by standardizing process tracking and eliminating
+                                procedural errors within six months.</li>
+                            <li>Served as primary consultant for analytical and presentation tools handling sensitive
+                                medical information.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="resume-item">
+                    <h3>Freelance</h3>
+                    <p class="date-range">03/2020 - 08/2022</p>
+                    <div class="resume-sub-item">
+                        <p class="sub-title">Graphic and Web Designer</p>
+                        <ul class="description">
+                            <li>Developed custom digital and web design solutions using HTML/CSS/JS and Adobe Creative
+                                Suite.</li>
+                            <li>Created interactive data visualizations and dynamic landing pages for small businesses.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <p>Last updated 10/2025</p>
+            </section>
+
+        </div>
+
     </main>
     <!------------------------------------------------------------------------------------>
     <footer>

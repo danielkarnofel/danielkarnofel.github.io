@@ -4,7 +4,9 @@
 
     --primary-color: #111;
     --text-color: #EEE;
-    --accent-color: #4F4;
+    --accent-color-r: #E66;
+    --accent-color-g: #6E6;
+    --accent-color-b: #66E;
 }
 
 *, *::before, *::after {

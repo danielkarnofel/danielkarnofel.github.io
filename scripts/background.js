@@ -4,7 +4,7 @@ const canvas = document.querySelector("#canvas");
 let gl, program, vao;
 let pMatrix;
 let u_mpMatrixLoc, u_mousePositionLoc, u_timeLoc;
-let mouseX = 0, mouseY = 0;
+let mouseX = Number.MIN_SAFE_INTEGER, mouseY = Number.MIN_SAFE_INTEGER;
 let startTime = performance.now();
 
 const GRID_SIZE = 70;
