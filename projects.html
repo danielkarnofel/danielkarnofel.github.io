@@ -13,7 +13,9 @@
 
 <body>
     <header>
-        <a href="index.html"><h1>Daniel Karnofel</h1></a>
+        <a href="index.html">
+            <h1>Daniel Karnofel</h1>
+        </a>
         <nav>
             <div class="nav-links">
                 <a href="index.html">Home</a>
@@ -32,8 +34,160 @@
     <!------------------------------------------------------------------------------------>
     <main>
         <section class="text-section">
-            <p>Hi, I'm currently updating this section. Check back soon!</p>
+            <p>Hi, welcome to my personal project repository! You can view the public source code and full documentation
+                for all of my projects
+                by visiting my <a href="https://github.com/danielkarnofel?tab=repositories" target="_blank"
+                    rel="noopener noreferrer">GitHub</a>.</p>
         </section>
+
+        <div class="projects-container">
+
+            <section class="project-item">
+                <div class="project-title">
+                    <h2>3D Rendering Engine</h2>
+                </div>
+                <ul class="project-tools">
+                    <li class="cpp">C++</li>
+                    <li class="opengl">OpenGL</li>
+                </ul>
+                <p class="project-description">
+                    This is an <em>in-progress</em> project that I am actively developing. Check back soon for
+                    more updates!
+                </p>
+            </section>
+
+            <section class="project-item">
+                <div class="project-title">
+                    <h2>2D Rendering Engine</h2>
+                </div>
+                <ul class="project-tools">
+                    <li class="js">JavaScript</li>
+                    <li class="webgl">WebGL</li>
+                </ul>
+                <p class="project-description">
+                    A full-featured, general purpose 2D rendering engine built from scratch with Javascript and WebGL2. Includes a full UI with customizable canvas attributes, 3 primitive object types with dynamic transformation, scale, and rotation, as well as 3 pre-built test scenes. The scene graph is visualized by a node list in the UI and includes insertion, deletion, visibility, and z-index modification. Dynamic selection-by-click is supported, with node and canvas property modification implemented via HTML inputs. Two pre-loaded textures are included that can be dynamically applied to any node, as well as support for fill color, border color, stroke width, and opacity.
+                </p>
+                <span class="project-links">
+                    <!-- <a href="./projects/Renderer2D.html" class="project-info">Info</a> -->
+                    <a href="https://github.com/danielkarnofel/Renderer2D" target="_blank" rel="noopener noreferrer"
+                        class="project-code">Code</a>
+                    <a href="https://danielkarnofel.github.io/Renderer2D/" target="_blank" rel="noopener noreferrer"
+                        class="project-demo">Demo</a>
+                </span>
+            </section>
+
+            <section class="project-item">
+                <div class="project-title">
+                    <h2>Solar System Simulation</h2>
+                </div>
+                <ul class="project-tools">
+                    <li class="js">JavaScript</li>
+                    <li class="webgl">WebGL</li>
+                </ul>
+                <p class="project-description">
+                    A solar system simulation built from scratch with Javascript and WebGL. Includes a full 3D scene-graph system, custom shaders for Phong/Gouraud/flat shading, skyboxes, flow mapping, and more. Also includes a procedurally generated asteroid belt, orbit trails, and the option to simulate movement of the solar system around the galactic center.
+                </p>
+                <span class="project-links">
+                    <!-- <a href="./projects/SolarSystem.html" class="project-info">Info</a> -->
+                    <a href="https://github.com/danielkarnofel/SolarSystem" target="_blank" rel="noopener noreferrer"
+                        class="project-code">Code</a>
+                    <a href="https://danielkarnofel.github.io/SolarSystem/" target="_blank" rel="noopener noreferrer"
+                        class="project-demo">Demo</a>
+                </span>
+            </section>
+
+            <section class="project-item">
+                <div class="project-title">
+                    <h2>Software Raytracer</h2>
+                </div>
+                <ul class="project-tools">
+                    <li class="js">JavaScript</li>
+                </ul>
+                <p class="project-description">
+                    A software-based raytracer built from scratch with JavaScript. Supports multiple geometric primitives, and includes Phong shading, shadows, reflections, and anti-aliasing.
+                </p>
+                <span class="project-links">
+                    <!-- <a href="./projects/Raytracer.html" class="project-info">Info</a> -->
+                    <a href="https://github.com/danielkarnofel/Raytracer" target="_blank" rel="noopener noreferrer"
+                        class="project-code">Code</a>
+                    <a href="https://danielkarnofel.github.io/Raytracer/" target="_blank" rel="noopener noreferrer"
+                        class="project-demo">Demo</a>
+                </span>
+            </section>
+
+            <section class="project-item">
+                <div class="project-title">
+                    <h2>Image Processing Library</h2>
+                </div>
+                <ul class="project-tools">
+                    <li class="js">C++</li>
+                </ul>
+                <p class="project-description">
+                    A software based image processing library. Supports import and export of images in PNG, JPG, or BMP format. Includes a wide variety of basic per-pixel color and tone operations, geometric operations like cropping and resizing, and image composition operations like blending, multiplying, alpha-masking, and more. Also supports application of predefined or custom convolution kernels.
+                </p>
+                <span class="project-links">
+                    <!-- <a href="./projects/ImageProcessor.html" class="project-info">Info</a> -->
+                    <a href="https://github.com/danielkarnofel/ImageProcessor" target="_blank" rel="noopener noreferrer"
+                        class="project-code">Code</a>
+                </span>
+            </section>
+
+            <section class="project-item">
+                <div class="project-title">
+                    <h2>File Compression Tool</h2>
+                </div>
+                <ul class="project-tools">
+                    <li class="js">C++</li>
+                </ul>
+                <p class="project-description">
+                    A file compression command line tool that uses LZ77 frequency analysis and Huffman coding to provide lossless data compression. Includes convenient output statistics and a custom binary compression format. Supports both compression and decompression via either LZ77 or Huffman methods, as well as a combination of the two for DEFLATE style compression.
+                </p>
+                <span class="project-links">
+                    <!-- <a href="./projects/FileCompressor.html" class="project-info">Info</a> -->
+                    <a href="https://github.com/danielkarnofel/FileCompressor" target="_blank" rel="noopener noreferrer"
+                        class="project-code">Code</a>
+                </span>
+            </section>
+
+            <section class="project-item">
+                <div class="project-title">
+                    <h2>MovieMatch</h2>
+                </div>
+                <ul class="project-tools">
+                    <li class="js">JavaScript</li>
+                    <li class="node">Node</li>
+                    <li class="mysql">MySQL</li>
+                    <li class="express">Express</li>
+                </ul>
+                <p class="project-description">
+                    A full stack web application for searching and discovering movies. Uses the TMDB API for search and dynamic recommendations. Uses a MySQL database to store user accounts and information. Users can create custom lists, post ratings and reviews, and get personalized recommendations. Guest users can view popular and trending movies, see search results, reviews, and ratings, and discover genre based recommendations.
+                </p>
+                <span class="project-links">
+                    <!-- <a href="./projects/MovieMatch.html" class="project-info">Info</a> -->
+                    <a href="https://github.com/danielkarnofel/MovieMatch" target="_blank" rel="noopener noreferrer"
+                        class="project-code">Code</a>
+                </span>
+            </section>
+
+            <section class="project-item">
+                <div class="project-title">
+                    <h2>PlantTracker</h2>
+                </div>
+                <ul class="project-tools">
+                    <li class="java">Java</li>
+                    <li class="android">Android</li>
+                </ul>
+                <p class="project-description">
+                    An Android application for tracking, organizing, and managing houseplants, built using the Room persistence library. Users can add plants with attributes like name, type, light level, and watering frequency, and organize them into customizable areas for easy management.
+                </p>
+                <span class="project-links">
+                    <!-- <a href="./projects/PlantTracker.html" class="project-info">Info</a> -->
+                    <a href="https://github.com/danielkarnofel/PlantTracker" target="_blank" rel="noopener noreferrer"
+                        class="project-code">Code</a>
+                </span>
+            </section>
+
+        </div>
     </main>
     <!------------------------------------------------------------------------------------>
     <footer>

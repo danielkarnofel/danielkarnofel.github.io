@@ -8,4 +8,8 @@
         max-width: 1000px;
         margin: auto;
     }
+
+    .project-title h2 {
+        font-size: 1.5rem;
+    }
 }

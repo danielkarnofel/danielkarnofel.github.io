@@ -193,3 +193,88 @@ nav {
     list-style-type: none;
     padding: 0.25rem 0 0 0;
 }
+
+/* ========================================================================================== */
+/* Project section */
+/* ========================================================================================== */
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid var(--text-color);
+    padding: 1rem;
+}
+
+/* ========================================================================================== */
+
+.project-title {
+    cursor: default;
+}
+
+/* ========================================================================================== */
+
+.project-tools {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    cursor: default;
+}
+
+.project-tools li {
+    list-style-type: none;
+    color: var(--primary-color);
+    background-color: var(--accent-color-g);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* ========================================================================================== */
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.project-code {
+    color: var(--accent-color-g);
+    font-weight: bold;
+}
+
+.project-code:hover {
+    text-decoration: underline;
+}
+
+.project-info {
+    color: var(--accent-color-b);
+    font-weight: bold;
+}
+
+.project-info:hover {
+    text-decoration: underline;
+}
+
+.project-demo {
+    color: var(--accent-color-r);
+    font-weight: bold;
+}
+
+.project-demo:hover {
+    text-decoration: underline;
+}
